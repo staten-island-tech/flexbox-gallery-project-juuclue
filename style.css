@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp11947636.jpg);
+    background-size: cover;
+    color:white;
+}
+.header{
+    background-color:pink ;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+}
