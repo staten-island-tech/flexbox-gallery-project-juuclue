@@ -10,3 +10,44 @@ body{
     padding-bottom: 1vh;
     
 }
+.subheader{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    align-content: center;
+    
+}
+.images{
+    width: 400px;
+    border:4px solid;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.overview{
+    background-color: antiquewhite;
+    margin-top:5vh;
+    margin-bottom:1vh;
+    margin-left:0vs;
+    width:100%;
+    padding-top:2vh;
+    border-radius:5vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+
+}
+
+.image-box:hover .subheader{
+    transform: scale(130%);
+    transform: translateY(-6vh);
+    color:rgb(255,245,240);
+    background-color:rgb(209,231,255);
+
+
+}
