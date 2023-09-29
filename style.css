@@ -51,6 +51,9 @@ body{
     margin: 0 auto;
     padding: 0 auto;
     transition: transform 1s;
+    box-shadow: 10px 10px 50px rgb(209,231,255);
+}
+@media (max-width: 2000px) {
 }
 
 .image-box:hover .images{
